@@ -105,3 +105,5 @@
  - S2(config-if)# switchport trunk allowed vlan add 10
 ### Kiểm tra trạng thái hoạt động
 - Cấu hình trunk có thể bị nhầm lẫn. Câu lệnh **switchport mode dynamic auto** ở 2 phía của switch sẽ không tự động tạo đường trunk. Thay vào đó 2 đầu đợi thiết bị trên đường dẫn bắt đầu thương lượng
+
+[VLAN, Trunking.zip](https://github.com/khoa861996/31DaysCCNA/files/6161536/VLAN.Trunking.zip)
