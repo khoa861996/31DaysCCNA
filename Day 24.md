@@ -150,4 +150,5 @@ hoặc
  - Ở DHCP server, loại bỏ địa chỉ tĩnh của thiết bị cuối trong dải IP được cấu hình trên đây
 
 [Basic Router Config IPv4.zip](https://github.com/khoa861996/31DaysCCNA/files/6165534/Basic.Router.Config.IPv4.zip)
+
 [Basic Router Config IPv6.zip](https://github.com/khoa861996/31DaysCCNA/files/6165535/Basic.Router.Config.IPv6.zip)
