@@ -75,3 +75,5 @@ R 192.168.5.0/24 [120/1] via 192.168.4.1, 00:00:23, Serial0/0/1
 - **Version**: Kiểm tra đã có lệnh version 2 chưa
 - **Network statements**: Cấu hình Network không đúng hoặc thiếu
 - **Automatic summarization**: đảm bảo rằng đã dùng câu lệnh **no auto-summary**
+
+[RIP.zip](https://github.com/khoa861996/31DaysCCNA/files/6165547/RIP.zip)
