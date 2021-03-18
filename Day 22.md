@@ -71,7 +71,6 @@ R 192.168.5.0/24 [120/1] via 192.168.4.1, 00:00:23, Serial0/0/1
 - Đảm bảo rằng các đường dẫn ở trạng thái *up*
 - Kiểm tra kết nối
 - Đảm bảo IP và subnetmask đúng
-- **Version**: Kiểm tra đã có lệnh version 2 chưa
-- **Network statements**: Cấu hình Network không đúng hoặc thiếu
-- **Automatic summarization**: đảm bảo rằng đã dùng câu lệnh **no auto-summary**
-- **Automatic summarization**: đảm bảo rằng đã dùng câu lệnh **no auto-summary**
+**Version**: Kiểm tra đã có lệnh version 2 chưa
+**Network statements**: Cấu hình Network không đúng hoặc thiếu
+**Automatic summarization**: đảm bảo rằng đã dùng câu lệnh **no auto-summary**
