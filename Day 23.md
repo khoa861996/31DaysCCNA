@@ -43,3 +43,5 @@
 
 ## Cấu hình Static Route IPv6
 **Router(config)# ipv6 route ipv6-prefix/prefix-length {ipv6-address | exit-interface} [administrative-distance]**
+
+[Static,default route( IPv4,IPv6).zip](https://github.com/khoa861996/31DaysCCNA/files/6165539/Static.default.route.IPv4.IPv6.zip)
