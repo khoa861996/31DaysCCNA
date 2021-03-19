@@ -26,3 +26,9 @@
 ## Cấu hình Single-Area OSPFv3
 - Tương tự OSPFv2
 - Sử dụng Cisco Packet Tracer (Đính kèm)
+
+
+[OSPFv2.zip](https://github.com/khoa861996/31DaysCCNA/files/6172426/OSPFv2.zip)
+
+[OSPFv3.zip](https://github.com/khoa861996/31DaysCCNA/files/6172427/OSPFv3.zip)
+
