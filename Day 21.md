@@ -92,7 +92,9 @@
 - Switch phải được cấu hình **ip routing** để thực hiện định tuyến ở L3
 
 [VTP mode.zip](https://github.com/khoa861996/31DaysCCNA/files/6172401/VTP.mode.zip)
+
 [Router on a Stick.zip](https://github.com/khoa861996/31DaysCCNA/files/6172403/Router.on.a.Stick.zip)
+
 [Multilayer Switch.zip](https://github.com/khoa861996/31DaysCCNA/files/6172406/Multilayer.Switch.zip)
 
 
