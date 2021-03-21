@@ -51,4 +51,7 @@
  - Interface không cùng mạng
  - kiểu mạng OSPF không giống nhau 
  - Khác khoảng "hello" hoặc "dead"
+
+[Redistribute, Interval OSPF.zip](https://github.com/khoa861996/31DaysCCNA/files/6177480/Redistribute.Interval.OSPF.zip)
+
  
