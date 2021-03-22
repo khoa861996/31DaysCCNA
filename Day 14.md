@@ -49,3 +49,5 @@
 
 ## Discontiguous Networks
 - EIGRP có một vấn đề duy nhất vì có thể cấu hình EIGRP để tự động hợp mạng ở các đoạn ngăn cách. Automatic summarization sẽ không xảy ra vấn đề gì, miễn là mạng được tổng hợp liền kề nhau
+
+[EIGRP.zip](https://github.com/khoa861996/31DaysCCNA/files/6183121/EIGRP.zip)
