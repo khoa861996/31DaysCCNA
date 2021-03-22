@@ -32,3 +32,6 @@
 
 ## Cấu hình EIGRP cho IPv6
 - Sử dụng Cisco Packet Tracer (Đính kèm)
+
+[EIGRP.zip](https://github.com/khoa861996/31DaysCCNA/files/6183123/EIGRP.zip)
+
