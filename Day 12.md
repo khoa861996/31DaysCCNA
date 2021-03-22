@@ -15,6 +15,7 @@
 6. Thay vì bước 5. cấu hình interface tự động học và cấu hình địa chỉ MAC của kết nối hiện thời **switchport port-security mac-address sticky**
 
 - Khi một thiết bị trái phép cố gắng gửi các frame đến interface của Switch, Switch có thể đưa ra các thông báo cung cấp thông tin, hủy các frame từ các thiết bị đó, hoặc thậm chí hủy tất cả các frame khỏi các thiết bị bằng các tắt interface
+
 |Tùy chọn lệnh **switchport port-security violation** |protect|restrict|shutdown|
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |Hủy bỏ lưu lượng xâm nhập |Có|Có|Có|
