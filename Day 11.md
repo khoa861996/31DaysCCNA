@@ -105,3 +105,6 @@
  
 ![alt text](https://i.imgur.com/I75L22Y.png)
 - Switch Stacking giảm thiểu đường kính của STP
+
+[STP.zip](https://github.com/khoa861996/31DaysCCNA/files/6183107/STP.zip)
+
