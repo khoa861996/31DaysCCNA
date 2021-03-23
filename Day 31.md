@@ -9,9 +9,9 @@
 ## Mô hình OSI và TCP/IP
 | OSI           | TCP/IP        |
 |:-------------:|:-------------:|
-| Application       
+| Application   |               |
 | Presentation  |  Application  |
-| Session             
+| Session       |               |
 | Transport     | Transport     |
 | Network       | Internet      |
 | Data Link     | Network Access|
@@ -37,6 +37,7 @@
  - **A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocesing
  
 # Các lớp của mô hình TCP/IP và giao thức của chúng
+
 | Lớp (Layer) | Chức năng| Ví dụ giao thức|
 | :-------------: |-------------|------------|
 | Application|Trình bày dữ liệu cho người dùng và kiểm soát các hội thoại|DNS,DHCP,POP3,...|
@@ -115,7 +116,7 @@
 - Port numbers cung cấp khả năng ghép các ứng dụng trên cùng một máy tính.
 - Mỗi lần yêu 1 website, TCP sẽ chỉ định một địa chỉ port khác từ nguồn (1024 -> 65535)
 
-| Port Number         | Protocol        |Application
+| Port Number         | Protocol        |Application|
 |:-------------:|:-------------:|-------------|
 |20| TCP| FTP data|
 |21 |TCP |FTP control|
@@ -134,10 +135,10 @@
 ### Error Recovery
 - 2 Trường Sequence (trình tự) và Acknowledgment trong TCP header sẽ kiểm tra từng byte của dữ liệu để đảm bảo dữ liệu bị mất sẽ được truyền tiếp.
 
-![alt text](https://imgur.com/9oMHQPU)
+![alt text](https://i.imgur.com/9oMHQPU.png)
  - Ở hình trên 3000 bytes dữ liệu đã được gửi thành công. Web browser đã nhận đủ dữ liệu và sẽ trả lại trường với Acknowledgment = 4000 với ngụ ý rằng số byte sẽ nhận tiếp theo là 4000.
 
-![alt text](https://imgur.com/iXAYEvI)
+![alt text](https://i.imgur.com/iXAYEvI.png)
  - Ở hình trên web browser được gửi đến 3000 bytes dữ liệu tuy nhiên ở đoạn dữ liệu 2000-2999 bị lỗi và không nhận được. Web browser sẽ gửi lại một trường ACK yêu cầu gửi lại dữ liệu trong đoạn từ 2000-2999. Sau khi nhận đủ tất cả các bytes web browser sẽ tiếp tục xử lý như bình thường
 
 - Web server sẽ tạo một khoảng thời gian truyền dữ liệu và đợi tin báo để đề phòng khi tin báo bị mất hoặc tất cả các đoạn dữ liệu bị mất. Khi thời gian hết dữ liệu sẽ được gửi lại từ đầu
@@ -151,13 +152,13 @@
 - Thiết lập kết nối là quá trình khởi tạo các trường Sequence và Acknowledgment, thống nhất về port number và kích thước của *window*
 SYN,ACK: đại diện cho 1 bit cờ trong TCP header để báo hiệu kết nối
 
-![alt text](https://imgur.com/uv0TLiz)
+![alt text](https://i.imgur.com/uv0TLiz.png)
 - TCP khởi tạo Sequence Number ngẫu nhiên trong 32bit số với mỗi lần truyền mới. Acknowledgment Number được nhận lại và tăng Sequence Number lên 1
 1. Web browser với source port được tạo tự động SPORT=1027 gửi request với SEQ=200 được tạo ngẫu nhiên có cờ SYN đến DPORT=80(HTTP)
 2. Từ Web server gửi lại web browser với SPORT=80 với SEQ=1450 được tạo ngẫu nhiên có cờ SYN,ACK
 3. Web browser nhận Acknowledgment Number và tăng nó lên 1
 
-![alt text](https://imgur.com/9etIEEV)
+![alt text](https://i.imgur.com/9etIEEV.png)
  - Khi hoàn thành quá trình truyền, trình kết thúc 4 bước xảy ra sử dụng cờ FIN (không gửi thêm số liệu)
 
 ### UDP
@@ -269,11 +270,11 @@ SYN,ACK: đại diện cho 1 bit cờ trong TCP header để báo hiệu kết n
 ### Access Points and Wireless LAN Controllers
 - WLAN là một phần quan trọng của kết nối mạng. Người dùng có thể kết nối khi di chuyển từ vị trí này đến vị trí khác khi ở trong một khu vực. Để có kết nối này, người quản trị mạng phải tập hợp các điểm truy cập không dây (Access Points) và các bộ điều khiển mạng LAN không dây (Wireless LAN Controllers)
 
-![alt text](https://imgur.com/iiq0waY)
+![alt text](https://i.imgur.com/iiq0waY.png)
 - AP có cổng Ethernet kết nối với cổng switch. AP có thể có thể trở thành 1 wireless router không có các tính năng của layer 3
 - AP còn có thể dùng khi khu vực phủ sóng của WLAN cần mở rộng.
 
-![alt text](https://imgur.com/FxsD8Ak)
+![alt text](https://i.imgur.com/FxsD8Ak.png)
 - Trông các mô hình mạng lớn hơn cần sử dụng một WLC để quản lý các AP
 - Dùng WLC,VLAN có thể cấp IP cho các thiết bị kết nối không dây từ các mạng con.
 
@@ -319,13 +320,13 @@ SYN,ACK: đại diện cho 1 bit cờ trong TCP header để báo hiệu kết n
  - Điều khiển truy cập VPN qua một kết nối có băng thông rộng ra mạng Internet
  
 ## Networking Icons
-![alt text](https://imgur.com/w87QsCR)
+![alt text](https://i.imgur.com/w87QsCR.png)
 - Biểu tượng các thiết bị mạng
 
 ## Physical and Logical Topologies
 - Sơ đồ mạng thường được gọi là cấu trúc liên kết(topologies). Một cấu trúc liên kết bằng đồ thị sẽ hiển thị các phương pháp kết nối giữa các thiết bị.
 
-![alt text](https://imgur.com/1Tb1WmN)
+![alt text](https://i.imgur.com/1Tb1WmN.png)
  - Điểm đến điểm (Point-to-Point)
  - Hình bus (Bus)
  - Hình vòng (Ring)
@@ -337,12 +338,12 @@ SYN,ACK: đại diện cho 1 bit cờ trong TCP header để báo hiệu kết n
 - Thiết kế phân cấp hay hình cây chia mậng thành các lớp rời rạc. Mỗi lớp cung cấp một chức năng khác nhau. Điều này khiến thiết kết mạng trở thành các modun, Điều này làm tăng khả năng mở rộng và tăng hiệu năng
 - Thiết kế phân cấp chia làm 3 lớp: 
 
-![alt text](https://imgur.com/lPNSoj1)
+![alt text](https://i.imgur.com/lPNSoj1.png)
  - Access layer: Cung cấp quyền truy cập trong nội bộ và người dùng từ xa
  - Distribution layer: Kiểm soát lưu lượng dữ liệu giữa lớp truy cập vào lớp lõi
  - Core layer: Hoạt động như mội cốt lõi(backbone) dự phòng với tốc độ cao
  
-https://imgur.com/cWvg270
+![alt text](https://i.imgur.com/cWvg270.png)
  - Với mô hình mạng nhỏ hơn Core layer thường được thu gọn thành Distribution layer để có được thiết kế 2 tầng
  - Với thiết kế 2 tầng này giải quyết được các vấn đề thiết kế:
   - Cung cấp một nơi để kết nối các thiết bị người dùng cuối
