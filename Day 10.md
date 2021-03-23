@@ -74,3 +74,10 @@
 - Để bầu HSRP mới, quyền ưu tiên phhải được bật bằng câu lệnh **stanby preempt**
 ## Cấu hình và kiểm tra HSRP
 - Sử dụng Cisco Packet Tracer (Đính kèm)
+
+[EtherChannel.zip](https://github.com/khoa861996/31DaysCCNA/files/6190522/EtherChannel.zip)
+[HSRP.zip](https://github.com/khoa861996/31DaysCCNA/files/6190525/HSRP.zip)
+[HSRP Load Balancing.zip](https://github.com/khoa861996/31DaysCCNA/files/6190527/HSRP.Load.Balancing.zip)
+
+
+
