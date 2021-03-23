@@ -21,6 +21,7 @@
  - **Privileged EXEC mode**: Toàn quyền truy cập để cấu hình và quản trị thiết bị
 ### Câu lệnh hiện lịch sử
 - Cisco IOS lưu 10 câu lệnh được cấu hình mới nhật vào bộ đệm
+
 | Cú pháp           | Mô tả        |
 |:-------------:|:-------------:|
 | switch# show history |Hiện các câu lệnh lưu trong bộ đệm|      
@@ -123,6 +124,7 @@
 
 ## Trạng thái kết nối giao diện và cấu hình Switch
 - Trạng thái "up" hoặc "down"
+
 | Trạng thái đường truyền           | Trạng thái giao thức        | Trạng thái giao diện|Nguyên nhân|
 |:-------------:|:-------------:|-------------|-------------|
 | Administratively Down    |Down  | disable|Giao diện được cấu hình **shutdown**|
