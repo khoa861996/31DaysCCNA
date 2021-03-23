@@ -52,7 +52,8 @@
 ## Ethernet
 - 802.3 là tiêu chuẩn IEEE cho Ethernet. 802.3 và Ethernet đều xác định lớp Physical và Data Link của công nghệ LAN
 
-[Github](https://imgur.com/j2O2H9z)
+![alt text](https://i.imgur.com/j2O2H9z.png)
+
 - Ethernet chia chức năng của lớp Data Link thành lớp con riêng biệt:
  - **Logical Link Control (LLC) sublayer**: Được xác định trong tiêu chuẩn 802.2
  - **Media Access Control (MAC) sublayer**: Được xác định trong tiêu chuẩn 802.3
@@ -63,9 +64,13 @@
  - Ở lớp Physical, Ethernet chỉ định và triển khai mã hóa và giải mã cho phép các frame truyền dưới dạng tín hiệu qua cáp UTP và cáp quang.
  
 ## Legacy Ethernet Technologies
-[Github](https://imgur.com/crlqM02)
+
+![alt text](https://i.imgur.com/crlqM02.png)
+
 - Một chuỗi các cáp tạo ra một mạch điện, gọi là Bus, được chia sẻ giữa các thiết bị trên Ethernet. Khi 1 máy tính muốn gửi 1 số bit đến máy tính khác trên Bus, nó gửi một tín hiệu điện đến tất cả các thiết bị trên Ethernet
-[Github](https://imgur.com/xYkpaQP)
+
+![alt text](https://i.imgur.com/xYkpaQP.png)
+
 - Bất cứ sự thay đổi nào trong cấu trúc liên kết vật lý từ kiểu bus sang kiểu star(sao), hub sẽ hoạt động một cách logic tương tự như cấu trúc liên kiết hình bus và yêu cầu sử dụng CSMA/CD
 
 ### CSMA/CD
@@ -81,6 +86,7 @@
 - Khi CSMA/CD hoạt động, Card mạng (NIC) hoạt động bán song công, gửi hoặc nhận frame. CSMA/CD bị tắt khi NIC phát hiện hoạt động để chế độ song công.
 
 ## Current Ethernet Technologies
+
 | Tên           | Tốc độ        | Tên thay thế|Tên trong tiêu chuẩn IEEE|Loại cáp,độ dài|
 |:-------------:|:-------------:|-------------|-------------|------------|
 | Ethernet    |10 Mbps   | 10BASE-T|802.3|Đồng, 100m|
@@ -101,7 +107,9 @@
 
 ## Ethernet Addressing
 - Tiêu chuẩn IEEE xác định định dạng và chỉ định địa chỉ của LAN. Để đảm bảo địa chỉ MAC là đọc nhất, nửa đầu của địa chỉ để nhận diện nhà sản xuất Card. Nửa sau của địa chỉ được chỉ định bảo nhà sản xuất và không bao giờ giống nhau ở các Card
-[Github](https://imgur.com/nFvNonP)
+
+![alt text](https://i.imgur.com/nFvNonP.png)
+
 - Nhóm địa chỉ cho Ethernet:
  - **Broadcast addresses**: Mọi thiết bị đều xử lý frame (FFFF.FFFF.FFFF)
  - **Multicast addresses**: Cho phép mạng con của thiết bị trong LAN giao tiếp với nhau (0100.5exx.xxx)
@@ -109,7 +117,7 @@
 ## Ethernet Framing
 - Lớp vật lý giúp ta nhận được 1 chuỗi các bit từ thiết bị này đến thiết bị khác. Thuật ngữ *framing* cho phép các thiết bị nhận dịch các bit. Thuật ngữ *framing* xác định ý nghĩa các bit được truyền và nhận qua mạng
 
-[Github](https://imgur.com/uEDZfdj)
+![alt text](https://i.imgur.com/uEDZfdj.png)
 
 | Trường           | Độ dài trường (Bytes)        |Mô tả|
 |:-------------:|:-------------:|-----------|
