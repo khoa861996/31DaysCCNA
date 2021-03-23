@@ -33,3 +33,9 @@
 1. Cấu hình ACL không thể gây lỗi nếu chưa áp dụng lên interface
 2. Xác định cấu hình ACL
 3. Phân tích ACL để xác định gói tin
+
+[Standard ACL.zip](https://github.com/khoa861996/31DaysCCNA/files/6190543/Standard.ACL.zip)
+[Extended ACL.zip](https://github.com/khoa861996/31DaysCCNA/files/6190544/Extended.ACL.zip)
+[IPv6 ACL.zip](https://github.com/khoa861996/31DaysCCNA/files/6190546/IPv6.ACL.zip)
+
+
