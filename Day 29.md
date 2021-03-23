@@ -36,6 +36,7 @@
 - Câu lệnh áp dụng vào Flash hoặc một giao diện riêng nào đó
 ### Truy cập chế độ cấu hình con
 - Để truy cập chế độ cấu hình chung, nhập **configure terminal**. Cisco IOS cung cấp nhiều chế độ cấu hình con khác nhau
+
 | Prompt           | Tên chế độ       |Câu lệnh truy cập|
 |:-------------:|:-------------:|----------|
 | hostname(config)#       |Global|configure terminal|
@@ -44,6 +45,7 @@
 | hostname(config-router)#     | Router     |router rip, router eigrp 100,...|
 
 ## Cấu hình Switch cơ bản
+
 | Mô tả | Cú pháp        |
 |:-------------:|:-------------:|
 |Truy cập chế độ cấu hình chung|Switch# configure terminal|
