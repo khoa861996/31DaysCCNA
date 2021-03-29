@@ -56,3 +56,7 @@
 - BGP trao đổi thông tin định tuyến giữa các Router như OSPF và EIGRP
 
 ## Cấu hình eBGP
+
+[GRE.zip](https://github.com/khoa861996/31DaysCCNA/files/6221802/GRE.zip)
+[PPP.zip](https://github.com/khoa861996/31DaysCCNA/files/6221803/PPP.zip)
+[BGP.zip](https://github.com/khoa861996/31DaysCCNA/files/6221804/BGP.zip)
