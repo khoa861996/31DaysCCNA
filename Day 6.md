@@ -57,3 +57,5 @@
 
 ## Cấu hình NAT động
 ## Cấu hình NAT Overload
+
+[NAT.zip](https://github.com/khoa861996/31DaysCCNA/files/6221810/NAT.zip)
